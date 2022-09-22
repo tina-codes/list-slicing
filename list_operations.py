@@ -11,7 +11,7 @@ def head(input_list):
     """
     #Return index [0] item
 
-    return []
+    return input_list[0]
 
 
 def tail(input_list):
