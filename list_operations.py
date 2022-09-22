@@ -55,7 +55,7 @@ def top(input_list):
     #Create new empty list
     #Assign slice of 0 to -1 to new list
     #Return slice 0 to -1
-    return []
+    return input_list[0:-1]
 
 
 def first_three(input_list):
