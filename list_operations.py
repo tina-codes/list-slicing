@@ -24,9 +24,10 @@ def tail(input_list):
 
     """
     #Create a new list
+    tail_list = input_list[1:]
     #Assign slice to new list
     #return new list
-    return []
+    return tail_list
 
 
 def last(input_list):
