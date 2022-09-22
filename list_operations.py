@@ -52,8 +52,6 @@ def top(input_list):
     ['Jan', 'Feb']
 
     """
-    #Create new empty list
-    #Assign slice of 0 to -1 to new list
     #Return slice 0 to -1
     return input_list[0:-1]
 
@@ -67,10 +65,9 @@ def first_three(input_list):
     ['Jan', 'Feb', 'Mar']
 
     """
-    #Create new list
-    #Assign slice of 0 to 3 to new list
+   
     #Return slice 0 to 3
-    return []
+    return input_list[0:3]
 
 
 def last_five(input_list):
