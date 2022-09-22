@@ -106,7 +106,7 @@ def inner_four(input_list):
 
     """
     #slice [2:6]
-    return []
+    return input_list[2:6]
 
 
 def inner_four_end(input_list):
