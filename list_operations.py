@@ -40,7 +40,7 @@ def last(input_list):
 
     """
     #Return index [-1]
-    return []
+    return input_list[-1]
 
 
 def top(input_list):
