@@ -214,3 +214,4 @@ def delete_middle(input_list):
 
     """
     #Slice [2:-2]
+    input_list[2:-2] = []
