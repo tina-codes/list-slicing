@@ -122,7 +122,7 @@ def inner_four_end(input_list):
 
     """
     #slice [-3:2:-1]
-    return []
+    return input_list[-6:-2]
 
 
 def replace_head(input_list):
@@ -140,7 +140,6 @@ def replace_head(input_list):
     """
     #list_name[0] = "42"
 
-    pass
 
 
 def replace_third_and_last(input_list):
