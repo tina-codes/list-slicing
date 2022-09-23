@@ -194,9 +194,8 @@ def delete_third_and_seventh(input_list):
     ['Do', 'Re', 'Fa', 'So', 'La', 'Do']
 
     """
-    #list_name.pop(2)
-    #list_name.pop(6)
-    pass
+    input_list.pop(2)
+    input_list.pop(5)
 
 
 def delete_middle(input_list):
@@ -215,4 +214,3 @@ def delete_middle(input_list):
 
     """
     #Slice [2:-2]
-    pass
