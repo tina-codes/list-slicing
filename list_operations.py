@@ -122,6 +122,8 @@ def inner_four_end(input_list):
 
     """
     #slice [-3:2:-1]
+    #Original idea was to reverse list with -1 step, but reread the docstring
+    #and realized that it was 6th from the END of list not 6th IN list.
     return input_list[-6:-2]
 
 
@@ -155,6 +157,8 @@ def replace_third_and_last(input_list):
     [0, 3, 37, 9, 12, 15, 18, 21, 24, 37]
 
     """
+    #Original idea was to list indices and set to value of 37, but not possible
+    #without a loop. So split into 2 lines of code.
     input_list[2] = 37
     input_list[-1] = 37
    
@@ -195,6 +199,7 @@ def delete_third_and_seventh(input_list):
 
     """
     input_list.pop(2)
+    #Original idea was to pop index[6], but after 2 is removed, 6 no longer exists
     input_list.pop(5)
 
 
