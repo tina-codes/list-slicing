@@ -138,7 +138,7 @@ def replace_head(input_list):
     [42, 3, 6, 9, 12, 15, 18, 21, 24, 27]
 
     """
-    #list_name[0] = "42"
+    input_list[0] = 42
 
 
 
