@@ -177,8 +177,8 @@ def replace_middle(input_list):
 
     """
     #Slice [1:-2] = [42, 37]
-    input_list[1:-2] = [42, 37]
-    pass
+    input_list[2:-2] = [42, 37]
+
 
 
 def delete_third_and_seventh(input_list):
